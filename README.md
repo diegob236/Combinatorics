@@ -19,5 +19,5 @@ It then runs the algorithm to find whether they are a valid degree sequence or n
 ## Numnine
 ----
 `numnine.py` counts how many numbers in a specified range contain the digit 9. This range is between 0 and 10^n - 1, where n
-is the argument provided. For example, entering 3 as an argument will count numbers from 0 to 999.  
+is a nonnegative number provided as an argument. For example, entering 3 as an argument will count numbers from 0 to 999.  
 (Soon to be updated to allow for all digits, not just 9!)
