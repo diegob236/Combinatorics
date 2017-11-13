@@ -9,15 +9,15 @@ Last updated: 11/12/17
 
 
 # NegException
-#   handles negative numbers, which are invalid degrees.
+#   - handles negative numbers, which are invalid degrees.
 class NegException(Exception): pass
 
 
 # Erdos-Gallai
-#   parameter: a list of positive degrees (ex. [2, 2, 2, 2, 2, 2])
-#   - Uses Erdos-Gallai theorem to validate if these numbers form a degree sequence.
-#   - Prints terms for each iteration
-#   returns: true if the given input is a valid degree sequence
+#   - parameter: a list of positive degrees (ex. [2, 2, 2, 2, 2, 2])
+#   - uses Erdos-Gallai theorem to validate if these numbers form a degree sequence.
+#   - prints terms for each iteration
+#   - returns: true if the given input is a valid degree sequence
 def erdosgallai(inp):
 
     # k : k=1 to n
@@ -63,13 +63,13 @@ def erdosgallai(inp):
 
 
 # Main method
-#   input: nonnegative numbers separated by spaces (Ex. 2 2 2 2 2 2)
-#   - Uses the Erdos-Gallai theorem to check if these numbers are a degree sequence
-#   - Prints result
+#   - input: nonnegative numbers separated by spaces (Ex. 2 2 2 2 2 2)
+#   - uses the Erdos-Gallai theorem to check if these numbers are a degree sequence
+#   - prints result
 if __name__ == "__main__":
 
-    # Erases a line of terminal output
-    #   - Used for changing messages when an invalid input is given
+    # RESET: Erases a line of terminal output
+    #   - used for changing messages when an invalid input is given
     RESET = '\x1b[1A' + '\x1b[2K'
 
     # Print header
